@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find-Leap-Year-Month</title>
+</head>
+<body>
+
+    <script>
+
+        let a=parseInt(prompt("Enter Number Only-1-To-12"));
+       
+
+        switch(a){
+            case 1:
+                console.log("Jan")
+                console.log("31 Days");
+            break;
+            case 2:
+            let b=parseInt(prompt("Enter Year"));
+                if(b%4==0){
+                    console.log("This is  Leap Year 29 Days " + b);
+                }
+                else{
+                    console.log("This is Not Leap Year 29 Days " + b);
+                }
+                console.log("Feb");
+            break;
+            case 3:
+                console.log("Mar");
+                console.log("31 Days");
+            break;
+            case 4:
+                console.log("Apr");
+                console.log("30 Days");
+            break;
+            case 5:
+                console.log("May");
+                console.log("31 Days");
+            break;
+            case 6:
+                console.log("Jun");
+                console.log("30 Days");
+            break;
+            case 7:
+                console.log("Jul");
+                console.log("31 Days");
+            break;
+            case 8:
+                console.log("Agu");
+                console.log("31 Days");
+            break;
+            case 9:
+                console.log("Sep");
+                console.log("30 Days");
+            break;
+            case 10:
+                console.log("Oct");
+                console.log("31 Days");
+            break;
+            case 11:
+                console.log("Nov");
+                console.log("30 Days");
+            break;
+            case 12:
+                console.log("Des");
+                console.log("31 Days");
+            break;
+            default :
+                console.log("Not This Month Number");
+            break;
+        };
+
+    </script>
+    
+</body>
+</html>
